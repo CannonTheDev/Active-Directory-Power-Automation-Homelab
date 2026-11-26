@@ -8,6 +8,8 @@ The health script returned **8 passing checks** across two domain controllers. B
 
 The deployment steps below use example network settings. Workstation domain join and interactive sign-in are separate validation steps.
 
+The CSV-provisioned `lab.avery` account successfully signed in to the domain-joined Windows 11 VM (`WIN-11`). In that session, `whoami` confirmed the domain account and `whoami /groups` confirmed that `GG-IT` was enabled in the user’s sign-in token.
+
 ## Lab layout
 
 | VM | Role | Example IPv4 | DNS client settings |
